@@ -10,7 +10,7 @@ CPU_THRESHOLD = 80.0  # CPU usage percentage above which an alert is sent
 INTERVAL = 2
 LOG_FILE = "system_alert.log"
 MAX_CONSECUTIVE = 3
-PROCESS_WHITELIST = ["explorer.exe", "cpumonitor.py", "kernel_task.exe", "System Idle Process", "System", "python.exe"]
+PROCESS_WHITELIST = ["explorer.exe", "cpumonitor.py", "kernel_task.exe", "System Idle Process", "System", "python.exe", "taskhostw.exe", "services.exe", "wininit.exe"]
 
 def analyze_system():
     """Analyzes current CPU usage."""
@@ -128,3 +128,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
