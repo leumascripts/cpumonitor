@@ -16,10 +16,7 @@
    git clone [https://github.com/leumascripts/cpu-shield-py.git](https://github.com/leumascripts/cpu-shield-py.git)
    cd cpu-shield-py
 
-   Install dependencies:
-    Bash
-
-    pip install -r requirements.txt
+   Install dependencies: pip install -r requirements.txt
 
 ## 💻 Usage
 
